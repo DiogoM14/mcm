@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { Categories } from '../components/Categories'
 
 export default function Home() {
   return (
@@ -7,7 +8,7 @@ export default function Home() {
         <title>Inicio | MCM</title>
       </Head>
       
-      <h1>Home</h1>
+      <Categories />
     </>
   )
 }

@@ -8,8 +8,11 @@ export const Global = createGlobalStyle`
   }
 
   :root {
-    --background: #f5f6fa;
+    --background: #f4f2f7;
+    --header-background: #f4f2f7;
+    --line: #dcdde1;
     --font-color: #2f3640;
+    --font-highlight: #192a56 ;
   }
 
   @media (max-width: 1080px) {
